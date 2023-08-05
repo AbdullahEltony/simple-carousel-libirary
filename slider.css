@@ -1,0 +1,34 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.Slider {
+    background-color:#ddd;
+
+}
+.Slider__container {
+    width:95%;
+    margin:100px auto;
+
+}
+.Slider__Cards {
+    display:flex;
+    overflow-x:hidden;
+    height:25vh;
+    user-select: none;
+    scroll-behavior: smooth;
+    
+}
+.Slider__item {
+    flex-shrink: 0;
+    background-color:red;
+    flex-grow:0;
+}
+.Slider__nav {
+    text-align:center;
+}
+.Slider__nav button {
+    padding:10px 20px ;
+    cursor:pointer;
+}
